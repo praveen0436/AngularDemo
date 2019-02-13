@@ -13,9 +13,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
- 
+import { Logger } from './logger.service';
+
+
+
 @NgModule({
   imports: [
+    
     BrowserModule,
     FormsModule,
     AppRoutingModule,
@@ -32,6 +36,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MessagesComponent,
     HeroSearchComponent
   ],
+  providers:[
+    Logger
+  ],
   bootstrap: [ AppComponent ]
+  
 })
 export class AppModule { }
