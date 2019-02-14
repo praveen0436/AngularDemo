@@ -14,6 +14,11 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { Logger } from './logger.service';
+import { HeroComponent } from './hero/hero.component';
+import { ClickMeComponent } from './click-me/click-me.component';
+import { KeyUpComponent } from './keyup/keyup.component';
+import { LoopbackComponent } from './loop-back/loop-back.component';
+import { LittleTourComponent } from './little-tour/little-tour.component';
 
 
 
@@ -34,7 +39,12 @@ import { Logger } from './logger.service';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    HeroComponent,
+    ClickMeComponent,
+    KeyUpComponent,
+    LoopbackComponent,
+    LittleTourComponent
   ],
   providers:[
     Logger
