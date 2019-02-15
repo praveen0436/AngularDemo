@@ -19,6 +19,9 @@ import { ClickMeComponent } from './click-me/click-me.component';
 import { KeyUpComponent } from './keyup/keyup.component';
 import { LoopbackComponent } from './loop-back/loop-back.component';
 import { LittleTourComponent } from './little-tour/little-tour.component';
+import { PeekABooComponent } from './peek-aboo/peek-aboo.component';
+import { HeroChildComponent } from './hero-child/hero-child.component';
+import { HeroParentComponent } from './hero-parent/hero-parent.component';
 
 
 
@@ -44,7 +47,10 @@ import { LittleTourComponent } from './little-tour/little-tour.component';
     ClickMeComponent,
     KeyUpComponent,
     LoopbackComponent,
-    LittleTourComponent
+    LittleTourComponent,
+    PeekABooComponent,
+    HeroChildComponent,
+    HeroParentComponent
   ],
   providers:[
     Logger
